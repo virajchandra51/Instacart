@@ -29,5 +29,5 @@ Tech Stack Used :
 
 Challenges Faced :
 
-1. Cloning the website was not such of a copy paste scenario as I had pictured. SHA-Hash security for the original restriced me to pseudo classes and scripts.
+1. Cloning the website was not such of a copy paste scenario as I had pictured. SHA-Hash security for the original restricted me to pseudo classes and scripts.
 2. Encountered some issues while hosting with Firebase, usually preferred a different hosting procedure, went with Firebase for the first time.
