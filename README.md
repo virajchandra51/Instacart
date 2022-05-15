@@ -25,3 +25,9 @@ Tech Stack Used :
 2. CSS
 3. Vanilla JavaScript
 4. ViteJs
+5. Firebase
+
+Challenges Faced :
+
+1. Cloning the website was not such of a copy paste scenario as I had pictured. SHA-Hash security for the original restriced me to pseudo classes and scripts.
+2. Encountered some issues while hosting with Firebase, usually preferred a different hosting procedure, went with Firebase for the first time.
