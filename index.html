@@ -5,6 +5,9 @@
     <link rel="icon" type="image/svg+xml" href="https://www.instacart.com/assets/instacart_favicon_48x48-25ac28f848f7cf81a9c8a9aad693a898.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css">
+     <!-- Icons -->
+     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+     <!-- Icons -->
     <title>Instacart | Grocery Delivery or Pickup from Local Stores Near You</title>
   </head>
   <body class="store-brand-instacart">
@@ -23,7 +26,7 @@
             <div role="button" class="hamburger-menu-main-items-item"><span>Help</span><span class="hamburger-menu-main-items-itemspan"><svg width="1em" height="1em" viewBox="0 0 24 24" fill="#343538" xmlns="http://www.w3.org/2000/svg" color="brandSecondaryDark"><path fill-rule="evenodd" clip-rule="evenodd" d="M16.879 12l-5.94-5.94a1.5 1.5 0 012.122-2.12l7 7a1.5 1.5 0 010 2.12l-7 7a1.5 1.5 0 01-2.122-2.12L16.88 12z"></path></svg></span>
             </div>
           </div>
-          <div class="hamburger-menu-main-backgroundside" role="button" tabindex="0"></div>
+          <div class="hamburger-menu-main-backgroundside"></div>
         </div>
       </div>
       <div class="nav-bar">
@@ -770,8 +773,11 @@
             <div class="footer-content-accessibility-right">
               <span class="footer-content-accessibility-right-span">Enable high contrast colors</span>
               <div id="toggle-switch" class="footer-content-accessibility-right-toggle">
-                  <input id="toggle" type="checkbox" class="footer-content-accessibility-right-toggle-input" />
-                  <label for="toggle" ></label>
+                  <input id="toggle" aria-checked="false" type="checkbox" class="footer-content-accessibility-right-toggle-input" />
+                  <div aria-hidden="true" class="footer-content-accessibility-right-toggle-bg"></div>
+                  <div aria-hidden="true" class="footer-content-accessibility-right-toggle-icon">
+                    <i class="ri-close-line"></i>
+                  </div>
               </div>
             </div>
           </div>
